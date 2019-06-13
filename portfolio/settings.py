@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'portfoliodb',
+        'NAME': '',
         'USER': 'root',
-        'PASSWORD': 'godbless',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
